@@ -2,6 +2,12 @@
 ############################ IT'S A TEST #######################################
 ############################################################################
 
-# To run flask in Terminal on mac: 'export FLASK_APP=.\path\to\python_file.py'
-# To run flask in Terminal on Windows: 'set FLASK_APP='.\path\to\python_file.py'
-# Then 'flask --app .\path\to\python_file.py'
+To run your Flask app, follow these steps:
+
+For **macOS**:  
+`export FLASK_APP=./path/to/python_file.py`  
+`flask --app ./path/to/python_file.py run`  
+
+For **Windows**:  
+`set FLASK_APP=.\path\to\python_file.py`  
+`flask --app .\path\to\python_file.py run`  
