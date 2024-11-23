@@ -5,7 +5,7 @@ app = Flask(__name__)
 random_number = random.randint(0,9)
 
 
-@app.route("/")
+@app.route("/game")
 def home_page():
     return ("<h1 style='text-align: center;'>Guess a number between 0 and 9</h1>"
             "<img src='https://media.giphy.com/media/3o7aCSPqXE5C6T8tBC/giphy.gif' alt='gif that count from 0-9'"
